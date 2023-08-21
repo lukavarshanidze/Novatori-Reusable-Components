@@ -1,0 +1,224 @@
+@import '../../styles/colors.scss';
+
+.bannerImage img{
+    width: 1609px;
+    height: 591px;
+}
+.titles h2{
+    align-self: stretch;
+    font-size: 26px;
+    line-height: 30.5px;
+    color: $informationSecondaryColor;
+    font-family: Lato;
+}
+.titles h1{
+    font-size: 32px;
+    line-height: 42px;
+    color: $whiteColor;
+    margin-top: 12px;
+    font-family: Lato;
+}
+.additionalTitles {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.additionalTitles :first-child{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Inter;
+    color: $whiteColor;
+}
+.additionalTitles :last-child{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Inter;
+    color: $secondaryTextColor;
+}
+.bannerImage{
+    position: relative;
+}
+.titles{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+.buttons{
+    display: flex;
+    height: 48px;
+    width: 48px;
+    gap: 20px;
+    position: absolute;
+    margin-top: 214px;
+
+}
+.banner1Button{
+    height: 48px;
+    width: 48px;
+    border-radius: 8px;
+    background-color: $primaryColor;
+    border: 8px solid $primaryColor;
+}
+.banner1Button img{
+    height: 40px;
+    width: 40px;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+.banner2Button{
+    border-radius: 8px;
+    height: 48px;
+    width: 48px;
+    background-color: $whiteColor;
+    border: 8px solid $whiteColor;
+}
+.banner2Button img{
+    height: 40px;
+    width: 40px;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+
+.wrapper:hover .banner1Button{
+    opacity: 70%;
+}
+.wrapper:hover .banner2Button{
+    opacity: 70%;
+}
+
+.wrapper:active .banner1Button{
+    opacity: 85%;
+}
+.wrapper:active .banner2Button{
+    opacity: 85%;
+}
+
+.wrapper:focus .banner1Button{
+    opacity: 75%;
+}
+.wrapper:focus .banner2Button{
+    opacity: 75%;
+}
+
+
+
+//Responsive Design
+
+//Tablet
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .bannerImage img{
+        width: 764px;
+        height: 289px;
+    }
+    .titles h2{
+        align-self: stretch;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .titles h1{
+        margin-top: 18px;
+        font-size: 18px;
+        line-height: 16px;
+    }
+    .titles{
+        top: 20px;
+        left: 20px;
+    }
+    .additionalTitles{
+        margin-top: 18px;
+        gap: 7.83px;
+    }
+    .additionalTitles :first-child{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .additionalTitles :last-child{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .buttons{
+        margin-top: 116px;
+        gap: 9.79px;
+    }
+    .banner1Button{
+        height: 32px;
+        width: 32px;
+    }
+    .banner1Button img{
+        height: 24px;
+        width: 24px;
+        margin-left: -4px;
+        margin-top: -4px;
+    }
+    .banner2Button{
+        height: 32px;
+        width: 32px;
+    }
+    .banner2Button img{
+        height: 24px;
+        width: 24px;
+        margin-left: -4px;
+        margin-top: -4px;
+    }
+}
+
+//Mobile
+
+@media screen and (max-width: 768px){
+    .bannerImage img{
+        width: 358px;
+        height: 154px;
+    }
+    .titles h2{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .titles h1{
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .titles{
+        top: 10px;
+        left: 10px;
+    }
+    .additionalTitles{
+        margin-top: 6px;
+        gap: 3.55px;
+    }
+    .additionalTitles :first-child{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .additionalTitles :last-child{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .buttons{
+        margin-top: 22px;
+        gap: 12px;
+    }
+    .banner1Button{
+        height: 32px;
+        width: 32px;
+    }
+    .banner1Button img{
+        height: 24px;
+        width: 24px;
+        margin-left: -4px;
+        margin-top: -4px;
+    }
+    .banner2Button{
+        height: 32px;
+        width: 32px;
+    }
+    .banner2Button img{
+        height: 24px;
+        width: 24px;
+        margin-left: -4px;
+        margin-top: -4px;
+    }
+}

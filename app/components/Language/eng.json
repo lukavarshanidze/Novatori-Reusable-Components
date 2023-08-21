@@ -1,0 +1,47 @@
+{
+        "login": {
+            "title": "Welcome to GD Player pro",
+            "userLabel": "Username",
+            "placeHolder": "Enter Your Username",
+            "passwordLabel": "Password",
+            "passPlaceHolder": "Enter Your Password",
+            "rememberMe": "Remember me",
+            "forgotPass": "Forget Password",
+            "loginButton": "Log In",
+            "gmailLogin": "Sign in with Google",
+            "facebookLogin": "Sign in with Facebook",
+            "noAccount": "don't have an account?",
+            "signUp": "Sign Up"
+        },
+        "register": {
+            "title": "Welcome to GD Player Pro",
+            "userNameLabel": "Username",
+            "lastNameLabel": "Last name",
+            "userNamePlaceHolder": "Enter Your Username",
+            "emailLabel": "Email Address",
+            "emailPlaceHolder": "Enter your email address",
+            "passwordLabel": "Password",
+            "passPlaceHolder": "Enter Your Password",
+            "confirmPassword": "Confirm password",
+            "agree": "I agree to",
+            "terms": "Terms & services",
+            "signUpButton": "Sign Up",
+            "alreadyHaveAccount": "You Already have an account?",
+            "signIn": "Sign In"
+        },
+        "leftSideMenu": {
+            "user": "John Johnson",
+            "Home": "Home",
+            "MyMusic": "My Music",
+            "Radio": "Radio",
+            "Download": "Download",
+            "Settings": "Settings",
+            "Help": "Help"
+        },
+        "artist": {
+            "title": "Artist",
+            "genre": "Genre",
+            "releaseDate": "Release Date",
+            "duration": "Duration"
+        }
+}

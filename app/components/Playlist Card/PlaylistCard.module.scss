@@ -1,0 +1,54 @@
+@import '/app/styles/colors.scss';
+.PlaylistCard {
+    max-width: 648px;
+    height: 72px;
+    background-color: $whiteColor;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+
+}
+.flexItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Url {
+    width: 74px;
+    height: 74px;
+    border-radius: 8px;
+}
+
+.paragraphWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+
+}
+.name {
+    // color: $primaryTextColor;
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.quantity {
+    // color: $secondaryTextColor;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.songDuration{
+    // color: $secondaryTextColor;
+    align-items: center;
+   
+}

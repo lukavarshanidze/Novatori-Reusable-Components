@@ -1,0 +1,112 @@
+@import '../../styles/colors.scss';
+
+
+.wrapper{
+    background-color: $whiteColor;
+    //border: 1px solid rgb(231, 222, 168);
+    align-items: center;
+    justify-content: center;
+    width: 236px;
+}
+
+.img{
+    max-width: 236px;
+    max-height: 236px;
+    border-radius: 8px;
+}
+
+.labels{
+    margin-top: 16px;
+}
+.labels p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Lato;
+    color: $secondaryTextColor;
+    margin-top: 8px;
+    font-weight: 700;
+    
+}
+.labels h5{
+    font-size: 18px;
+    line-height: 16px;
+    font-family: Lato;
+    font-weight: 700;
+    color: $primaryTextColor;
+}
+
+.image1{
+    position: relative;
+}
+.wrapper:hover .hoverImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    gap: 20px;
+    width: 40px;
+}
+.hoverImages{
+    display: none;
+}
+
+//Responsive Design
+
+//Tablet
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .wrapper{
+        width: 132px;
+    }
+    .frame img{
+        width: 132px;
+        height: 132px;
+    }
+    .labels h5{
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .labels p{
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: Inter;
+        font-weight: 500;
+    }
+    .labels{
+        margin-top: 8px;
+    }
+}
+
+
+//Mobile
+@media screen and (max-width: 768px){
+    .wrapper{
+        width: 120px;
+    }
+    .frame img{
+        width: 120px;
+        height: 120px;
+    }
+    .labels h5{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .labels p{
+        line-height: 24px;
+        font-size: 14px;
+        margin-top: 3.3px;
+        font-family: Inter;
+        font-weight: 500;
+    }
+    .labels{
+        margin-top: 8px;
+    }
+    .labels{
+        margin-top: 13px;
+    }
+}
+
+

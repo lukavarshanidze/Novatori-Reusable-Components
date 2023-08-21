@@ -1,0 +1,68 @@
+@import '../../styles/colors.scss';
+
+.container {
+    background-color: $lightInformationColor;
+    border-radius: 8px;
+    padding: 14px 29px;
+    color:$primaryColor;
+    cursor: pointer;
+    border: none;
+}
+
+.fill {
+    background-color: $lightInformationColor;
+    color:$primaryColor;
+
+
+}
+.fill:hover:enabled {
+    background-color: $primaryHoverColor;
+    color: $white;  
+}
+
+.fill:active:disabled {
+    background-color: $primaryColor;
+    color: $white;
+}
+
+.fill:disabled {
+    background-color: $primaryBackgroundColor;
+    color: $secondaryTextColor;
+}
+
+.outline {
+    background-color: $white;
+    color: $secondaryTextColor;
+    border: 1px solid $outline;
+    
+
+}
+
+.outline:hover:enabled {
+    background-color: $white;
+    color: $primaryTextColor;
+    border: 1px solid $primaryColor;
+}
+
+.outline:active:enabled {
+    background-color: $white;
+    color: $primaryColor;
+    border: 1px solid $primaryColor;
+}
+
+.onlyIconButtonFill {
+    background-color:$primaryColor;
+    padding: 13px 15px;
+    width: 46px;
+    height: 46px;
+    color:$primaryColor;
+
+}
+.onlyIconButtonOutline {
+    padding:13px 15px;
+    border: 1px solid $outline;
+    background-color: $white;
+    width: 46px;
+    height: 46px;
+    color: $white;
+}

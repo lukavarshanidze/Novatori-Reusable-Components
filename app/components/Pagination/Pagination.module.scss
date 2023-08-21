@@ -1,0 +1,91 @@
+@import './../../styles/colors.scss';
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 100px;
+    cursor: pointer;
+    margin: 8px;
+    margin-left: 35px;
+    color: $secondaryTextColor;
+
+}
+
+
+.icon1{
+    background-color: $secondaryBackgroundColor;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+
+.icon2{
+    background-color: $secondaryBackgroundColor;
+    padding: 10px;
+    border-radius: 6px;
+    color: $secondaryTextColor;
+}
+
+
+.active{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.Mini{
+    color: $secondaryTextColor;
+}
+
+
+.miniActive {
+    color: $primaryTextColor;
+    border: 1px solid #ECECF2;
+}
+
+.Basic{
+    color: $primaryTextColor;
+}
+
+.basicActive{
+    background-color: $primaryColor;
+    color: $white;
+}
+
+.Full{
+    color: $primaryTextColor;
+    border-radius: 6px;
+}
+
+.customFull {
+    background-color: $secondaryBackgroundColor;
+    position: relative;
+}
+
+
+.fullActive{
+    background-color: $lightInformationColor;
+    color: $primaryColor;
+}
+
+.fullActive:after{
+    position: absolute;
+    height: 2px;
+    bottom: -12px;
+    background-color: $primaryColor;
+    width: 80%;
+    content: '';
+}
+.Basicwrapper{
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    color: $secondaryTextColor;
+
+}
+

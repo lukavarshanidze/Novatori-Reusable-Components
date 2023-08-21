@@ -1,0 +1,36 @@
+.language {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 9px 8px;
+    border-radius: 16.7px;
+    border: 0.794px solid #F4BE5E;
+    margin-bottom: 18px;
+    margin-left: auto;
+}
+
+.language img{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.language select{
+    border: none;
+    background-color: none;
+    outline: none;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .language{
+        padding: 9.5px 6px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .language {
+        padding: 8px;
+    }
+
+}

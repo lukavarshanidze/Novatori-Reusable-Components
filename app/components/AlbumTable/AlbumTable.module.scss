@@ -1,0 +1,125 @@
+@import '../../styles/colors.scss';
+
+.container{
+    background-color: $primaryTextColor;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.insideContainer{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.songHeader__container{
+    background-color: $white;
+    border-radius: 8px;
+    color: $secondaryTextColor;
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    flex: 1;
+    padding: 14px 42px 16px 12px;
+
+}
+.songAlbum__container{
+    background-color: $white;
+    display: flex;
+    padding: 12px 42px 12px 12px;
+    border-radius: 8px;
+
+
+    color: $primaryTextColor;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.songHeader__container{
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.artist{
+    display: flex;
+    width: 404px;
+    max-width: 404px;
+    align-items: center;
+    gap: 16px;
+}
+.grow{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-between;
+}
+.grow div{
+    width: 100px;
+    display: flex;
+}
+
+
+.box{
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    background: var(--text-secondary-text, #8181A5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artistName_container{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.artistName_container .album{
+    color: $secondaryTextColor;
+font-size: 14px;
+font-family: Lato;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+}
+.insideBox img{
+    
+}
+.box img{
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box div{
+    position: absolute;
+}
+.insideBox{
+    width: 32px;
+    height: 32px;
+    background-color: #4DDD61;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insideBox_active{
+    width: 12px;
+    height: 12px;
+    background-color: red;
+}

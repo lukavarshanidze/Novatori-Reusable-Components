@@ -1,0 +1,49 @@
+@import '../../styles/colors.scss';
+
+.container{
+    border-radius: 8px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.fill{ 
+    background-color: $primaryBackgroundColor;
+    color: $primaryColor;
+}
+
+.outline{ 
+    background-color: $white;
+    color: $secondaryTextColor;
+    border: 1px solid $strokesColor;
+}
+
+.outline:hover:enabled{ 
+    background-color: $white;
+    color: $primaryTextColor;
+    border: 1px solid $primaryColor;
+}
+
+.outline:active:enabled{ 
+    background-color: $white;
+    color: $primaryColor;
+    border: 1px solid $primaryColor;
+}
+
+.fill:hover:enabled{ 
+    background-color: $primaryHoverColor;
+    color: $white;
+}
+
+.fill:active:enabled{ 
+    background-color: $primaryColor;
+    color: $white;
+}
+
+.fill:disabled{ 
+    background-color: $primaryBackgroundColor;
+    color: $secondaryTextColor;
+    cursor: not-allowed;
+
+}
+

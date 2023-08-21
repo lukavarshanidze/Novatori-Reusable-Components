@@ -1,0 +1,45 @@
+@import '../../styles/colors.scss';
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 8px 31px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.defColor{
+    background-color: $primaryColor;
+    color: $white;
+}
+
+.defColor:active{
+    background-color: #5E81F419;
+    color: $primaryColor;
+}
+
+.success{
+    background-color: $lightSuccessColor;
+    color: $successColor;
+}
+
+.warning{
+    background-color: $lightWarningColor;
+    color: $warningColor;
+}
+
+
+.error{
+    background-color: $lightErrorColor;
+    color: $errorColor;
+}
+
+.secondarySuccess{
+    background-color: $lightSecondarySuccessColor;
+    color: $secondarySuccessColor;
+}
+
+.secondaryText{
+    background-color: $secondaryBackgroundColor;
+    color: $secondaryTextColor;
+}

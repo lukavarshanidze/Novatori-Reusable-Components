@@ -1,0 +1,56 @@
+@import '../../styles/colors.scss';
+
+.container{
+    padding: 14px 32px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    color: $white;
+    cursor: pointer;
+}
+
+.fill.warning:enabled{
+    background-color: $warningColor;
+}
+
+.fill.info:enabled {
+    background-color: $informationColor;
+}
+
+.fill.error:enabled {
+    background-color: $errorColor;
+}
+
+.fill.success:enabled{
+    background-color: $successColor;
+}
+
+.outline.success:enabled{
+    background-color: transparent;
+    color: $successColor;
+    border: 1px solid $successColor;
+}
+
+.outline.error:enabled{
+    background-color: transparent;
+    color: $errorColor;
+    border: 1px solid $errorColor;
+}
+
+.outline.info:enabled {
+    background-color: transparent;
+    color: $informationColor;
+    border: 1px solid $informationColor;
+}
+
+.outline.warning:enabled{
+    background-color: transparent;
+    color: $warningColor;
+    border: 1px solid $warningColor;
+}
+
+.container:disabled{
+    color: $secondaryTextColor;
+    background-color: $primaryBackgroundColor;
+    cursor: not-allowed;
+}

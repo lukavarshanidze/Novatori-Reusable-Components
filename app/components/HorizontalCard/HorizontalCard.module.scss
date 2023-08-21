@@ -1,0 +1,44 @@
+@import '../../styles/colors.scss';
+
+.card{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 348px;
+    height: 72px;
+    border-radius: 8px;
+    border: 1px solid rgb(188, 183, 177);
+    gap: 16px;
+}
+
+.card img{
+    width: 74px;
+    height: 72px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.card h5{
+    margin-top: 24px;
+    line-height: 24px;
+}
+
+.circle{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4DDD61;
+    border-radius: 32px;
+    margin-left: 113px;
+    margin-top: 16px;
+}
+
+.square {
+    border: none;
+    width: 16px;
+    height: 16px;
+}
+
+.card:hover .circle{
+    display: flex;
+}

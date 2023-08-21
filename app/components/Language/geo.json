@@ -1,0 +1,47 @@
+{
+    "login": {
+        "title": "შეიყვანეთ ანგარიში ",
+        "userLabel": "ანგარიშის სახელი",
+        "placeHolder": "შეიყვანეთ ანგარიშის სახელი",
+        "passwordLabel": "პაროლი",
+        "passPlaceHolder": "შეიყვანეთ პაროლი",
+        "rememberMe": "დამახსოვრება",
+        "forgotPass": "დაგავიწყდათ პაროლი?",
+        "loginButton": "შესვლა",
+        "gmailLogin": "შესვლა Gmail-ით",
+        "facebookLogin": "შესვლა Facebook- ით",
+        "noAccount": "არ გაქვთ ანგარიში?",
+        "signUp": "რეგისტრაცია"
+    },
+    "register": {
+        "title": "კეთილი to GD Player Pro",
+        "userNameLabel": "ანგარიშის სახელი",
+        "lastNameLabel": "გვარი",
+        "userNamePlaceHolder": "შეიყვანეთ ანგარიშის სახელი",
+        "emailLabel": "იმეილი",
+        "emailPlaceHolder": "შეიყვანეთ იმეილი",
+        "passwordLabel": "პაროლი",
+        "passPlaceHolder": "შეიყვანეთ პაროლი",
+        "confirmPassword": "გაიმეორეთ პაროლი",
+        "agree": "ვეთანხმები",
+        "terms": "წესებს",
+        "signUpButton": "რეგისტრაცია",
+        "alreadyHaveAccount": "ანგარიში უკვე გაქვთ?",
+        "signIn": "შესვლა"
+    },
+    "leftSideMenu": {
+        "user": "John Johnson",
+        "Home": "მთავარი",
+        "MyMusic": "ჩემი სიმღერები",
+        "Radio": "რადიო",
+        "Download": "გადმოწერა",
+        "Settings": "სეთინგები",
+        "Help": "დახმარება"
+    },
+    "artist": {
+        "title": "არტისტი",
+        "genre": "ჟანრი",
+        "releaseDate": "გამოშვების დრო",
+        "duration": "ხანგრძლივობა"
+    }
+}
